@@ -43,6 +43,13 @@ export default defineType({
 				}
 			]
 		}),
+		defineField({
+			name:'order',
+			title:'Sort Order',
+			description:'Lower will be displayed first',
+			type:'number',
+			initialValue:0
+		})
 	],
 
 })
